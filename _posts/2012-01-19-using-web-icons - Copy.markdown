@@ -7,10 +7,10 @@ excerpt: Quick overview on how to use the Typicon web font icons included with t
 
 ---
 
-##test
--test1
--test2
--test3
+##test##
+- test1
+- test2
+- test3
 
-
+[foo]: http://example.com/  "Optional Title Here"
 
