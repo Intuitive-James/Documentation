@@ -1,4 +1,3 @@
-_site
-node_modules
-validation-report.json
-validation-status.json
+.DS_Store
+_drafts/
+_site/
