@@ -24,8 +24,10 @@ baseurl: /Documentation/
 url: http://yourdomain.com/
 
 #### Under the Hood Stuff #####
+markdown:    kramdown
 
-
+kramdown:
+  input: GFM
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 permalink: pretty
