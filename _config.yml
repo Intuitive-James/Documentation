@@ -23,12 +23,17 @@ baseurl: /Documentation/
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://yourdomain.com/
 
-#### Under the Hood Stuff #####
-markdown:    kramdown
+
+# Markdown
+markdown:    redcarpet
+
+redcarpet:
+  extensions: ["footnotes"]
 
 kramdown:
-  input: GFM
-
+  auto_ids: true
+  
+  
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 permalink: pretty
 
